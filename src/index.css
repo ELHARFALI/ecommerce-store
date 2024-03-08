@@ -57,3 +57,29 @@ body {
   background: #EEEEEE;
   color: #00ADB5;
 }
+
+.btn {
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 8px;
+  background: #AD8B73;
+  color: white;
+  transition: all ease-in-out 150ms;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  background: #CEAB93;
+}
+
+.text {
+  color: #393E46;
+}
+
+.round {
+  border-radius: 20px;
+}
