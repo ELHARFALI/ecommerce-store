@@ -1,7 +1,7 @@
 export {default as Navbar} from './Navbar'
 export {default as Sidebar} from './Sidebar'
 export {default as Hero} from './Hero'
-export {default as Button} from './Button'
+export {default as Featured} from './Featured'
 export {default as Contact} from './Contact'
 export {default as Filters} from './Filters'
 export {default as GridView} from './GridView'

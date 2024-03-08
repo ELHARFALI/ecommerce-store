@@ -5,7 +5,7 @@ import heroImg2 from '../assets/hero-bcg-2.jpeg'
 
 const Hero = () => {
   return (
-    <section className='grid lg:grid-cols-2 gap-x-6 place-content-center h-[calc(100vh-80px)]'>
+    <section className='main-container grid lg:grid-cols-2 gap-x-6 place-content-center h-[calc(100vh-80px)] px-4 2xl:px-0'>
       <div className='h-full flex flex-col justify-center'>
         <h1 className='text-3xl lg:text-4xl xl:text-5xl font-semibold mb-2'>
           Design Your Home Here
