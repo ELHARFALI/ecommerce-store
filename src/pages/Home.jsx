@@ -1,4 +1,4 @@
-import {Featured, Hero} from '../components'
+import {Contact, Featured, Hero, Services} from '../components'
 
 const Home = () => {
   return (
@@ -7,6 +7,10 @@ const Home = () => {
       <div className='bg-[#FFFBE9]'>
         <Featured />
       </div>
+      <div className='bg-[#E3CAA5]'>
+        <Services />
+      </div>
+      <Contact />
     </main>
   )
 }

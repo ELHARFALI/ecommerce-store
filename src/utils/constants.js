@@ -21,3 +21,4 @@ export const navLinks = [
         path: '/cart'
     }
 ]
+
