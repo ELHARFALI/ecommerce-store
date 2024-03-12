@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import { Footer, Navbar, Sidebar } from './components'
-import {Home} from './pages'
+import {About, Home} from './pages'
 
 const App = () => {
 
@@ -12,6 +12,7 @@ const App = () => {
       <Sidebar />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
       </Routes>
       <Footer />
     </BrowserRouter>
