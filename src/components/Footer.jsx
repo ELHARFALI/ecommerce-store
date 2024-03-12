@@ -6,6 +6,7 @@ const Footer = () => {
       <div className='text-lg'>
         &copy; {new Date().getFullYear()} <span className='text-[#AD8B73]'>ShopHere</span> All rights reserved
       </div>
+      
     </footer>
   )
 }
