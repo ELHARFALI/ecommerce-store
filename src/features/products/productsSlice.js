@@ -7,6 +7,7 @@ const initialState = {
   status: 'idle',
   error: null,
   isSidebarOpen: false,
+  gridView: true,
 }
 
 export const fetchProducts = createAsyncThunk('products/fetchProducts', async () => {
@@ -25,7 +26,10 @@ const productsSlice = createSlice({
   reducers: {
     toggleSidebar: (state) => {
       state.isSidebarOpen = !state.isSidebarOpen
-      }
+    },
+    toggleView: (state) => {
+      state.gridView = !state.gridView
+    }
     },
     extraReducers: (builder) => {
         builder
@@ -44,5 +48,5 @@ const productsSlice = createSlice({
 })
 
 // export actions
-export const {toggleSidebar} = productsSlice.actions
+export const {toggleSidebar, toggleView} = productsSlice.actions
 export default productsSlice.reducer
