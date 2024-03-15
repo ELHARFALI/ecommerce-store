@@ -26,7 +26,7 @@ const Products = () => {
     <main className='min-h-[calc(100vh-172px)]'>
       <ProductsLink title='Products' />
       <div className=' main-container px-4 2xl:px-0 mt-8 lg:mt-10 grid  lg:grid-cols-5 xl:grid-cols-6 gap-6'>
-        <Filters />
+        <Filters products={products} />
         <div className='col-span-1 md:col-span-3 lg:col-span-4 xl:col-span-5'>
           <div className='flex flex-col items-center md:flex-row md:items-center md:justify-between pb-2 border-b-[2px] border-b-black'>
             {/* LIST */}
